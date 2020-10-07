@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+.create{
+    margin: 20px;
+}
+
+.create .create-body > form{
+    margin: 20px;
+}
+
+.create .create-body > form > input[type=text] {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+  }
+
+.create .create-body > form > .form-line{
+    margin: 8px 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 50px;
+  }
+
+.create .create-body > form > .form-line > .inputs  >input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+  }
+
+.create .create-body > form > button {
+  margin-bottom: 20px;
+}
+
+

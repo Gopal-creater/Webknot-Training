@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+.content{
+    flex: 0.85;
+    background-color:#F2F4F4;
+    border-bottom: 2px solid gray;
+}
+
+.content-header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.content-search{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding-left: 20px;
+}
+
+.content-search > button , input{
+    border: none;
+    background-color: white;
+}
+
+.content-profile  {
+    display: flex;
+    align-items: center;
+}
+
+.content-profile > img{
+    width: 40px;
+    border-radius: 40%;
+    padding: 20px;
+}

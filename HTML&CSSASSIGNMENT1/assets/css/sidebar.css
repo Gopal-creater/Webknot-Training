@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+.sidebar {
+    flex: 0.15;
+    overflow: visible;
+    background-color: #34495E;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-right: 2px solid lightgrey;
+}
+
+.sidebar-header > img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sidebar-header > h1 {
+    padding-right: 10px;
+}
+
+.sidebar-navigation {
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-navigation > ul > li{
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar-navigation > ul > li > a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    color:white;
+    white-space: nowrap;    
+}
+
+.sidebar-navigation > ul > li > .active{
+    background-color: turquoise;
+}
+
+.sidebar-navigation > ul > li > a > span.icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.sidebar-navigation > ul > li > a > span.title {
+    display: inline-block;
+}

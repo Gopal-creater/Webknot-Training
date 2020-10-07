@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+.content-body{
+    padding: 20px;
+}
+
+/* content header */
+.sub-header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sub-header > header{
+    flex: 1;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+}
+
+.sub-icon1 >span{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.sub-icon1 > span > i{
+    padding: 5px;
+}
+
+.sub-icon2 > i{
+    padding: 5px;
+}

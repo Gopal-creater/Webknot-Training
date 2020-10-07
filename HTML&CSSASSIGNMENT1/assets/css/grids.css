@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2rem;
+}
+
+.card{
+    height: 17.9rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .content{
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    background-color: white;
+}
+
+.card .header {
+    font-size: 1vw;
+    display: flex;
+    padding-left: 20px;
+    background-color: #E5E7E9 ;
+}
+
+.content-top {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-top > h5 {
+    padding-bottom: 0;
+    font-size: 1vw;
+    flex: 1;
+}
+
+.content-top > h6 {
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 0.8vw;
+    
+}
+
+.content-mid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-mid > h5 {
+    font-size: 1vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.content-mid > p {
+    font-size: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content-end{
+    margin-top: 0;
+}
+
+.stat {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+ .stat .boss {
+    flex: 1;
+ }
+
+ .stat > h6 {
+    font-size: 0.8vw;      
+}
+
+ .asignee {
+     margin-left: 20px;
+     margin-right: 20px;
+     display: flex;
+     align-items: center;
+ }
+
+.asignee-profile > img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.asignee-profile{
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.asignee-btn > button{
+    color: white;
+    background-color:red;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 0.6rem;
+    display: inline-flex;
+    border : none;
+    cursor: pointer;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/sidebar.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/content.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/create.css" type="text/css" />
+</head>
+
+<body class="body">
+    <div class="app-body">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="images/tracker.png" alt="Logo">
+                <h1>tracker</h1>
+            </div>
+
+            <div class="sidebar-navigation">
+                <ul>
+                    <li>
+                        <a href="Dashboard.html">
+                            <span class="icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Issue.html">
+                            <span class="icon"><i class="fa fa-bug"></i></span>
+                            <span class="title">Issues</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="create.html" class="active">
+                            <span class="icon"><i class="fa fa-plus-circle"></i></span>
+                            <span class="title">Create</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Content-->
+        <div class="content">
+            <!-- content-header-->
+            <div class="content-header">
+
+                <div class="content-search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search..">
+                </div>
+
+                <div class="content-profile">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    <img src="images/profile.jpg" alt="Avatar">
+                </div>
+
+            </div>
+
+            <!-- content-body-->
+            <div class="create">
+                <h2>Create</h2>
+                <div class="create-body">
+                    <form>
+                        <label for="fname">Title :</label>
+                        <input type="text" id="title" name="title" placeholder="text">
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="type">Type :</label><br>
+                                <input type="text" id="type" name="type">
+                            </div>
+                            <div class="inputs">
+                                <label for="status">Status :</label><br>
+                                <input type="text" id="status" name="status">
+                            </div>
+                        </div>
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="">Priority :</label><br>
+                                <input type="dropdown" id="priority" name="priority">
+                            </div>
+                            <div class="inputs">
+                                <label for="resolution">Resolution :</label><br>
+                                <input type="text" id="resolution" name="resolution">
+                            </div>
+                        </div>
+
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="affect">Affects Version/s :</label><br>
+                                <input type="text" id="affect" name="affect">
+                            </div>
+                            <div class="inputs">
+                                <label for="reflect">Reflect Version/s :</label><br>
+                                <input type="text" id="reflect" name="reflect">
+                            </div>
+                        </div>
+
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="">Components :</label><br>
+                                <input type="text" id="Components" name="Components">
+                            </div>
+                            <div class="inputs">
+                                <label for="Asignee">Asignee :</label><br>
+                                <input type="text" id="Asignee" name="Asignee">
+                            </div>
+                        </div>
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="">Labels :</label><br>
+                                <input type="text" id="Components" name="Components">
+                            </div>
+                            <div class="inputs">
+                                <label for="Asignee">Reporters :</label><br>
+                                <input type="text" id="Asignee" name="Asignee">
+                            </div>
+                        </div>
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="">Sprints :</label><br>
+                                <input type="text" id="Components" name="Components">
+                            </div>
+                            <div class="inputs">
+                                <label for="Asignee">Descriptions :</label><br>
+                                <input type="text" id="Asignee" name="Asignee">
+                            </div>
+                        </div>
+
+                        <div class="form-line">
+                            <div class="inputs">
+                                <label for="">Story Points :</label><br>
+                                <input type="text" id="Components" name="Components">
+                            </div>
+                            <div class="inputs">
+                                <label for="Asignee">Attachments :</label><br>
+                                <input type="text" id="Asignee" name="Asignee">
+                            </div>
+                        </div>
+
+                        <button
+                            style="float: right; padding: 15px; color: white; background-color: blueviolet; border: none;">submit>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
